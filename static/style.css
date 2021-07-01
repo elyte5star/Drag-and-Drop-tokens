@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+* {
+    font-family: Raleway, sans-serif;
+}
+
+.delete {
+    display: inline-block;
+    background: #fff;
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+    margin: 0 4px 0 0;
+    line-height: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.token {
+    font-size: 1.35em;
+}
+
+.TokenSrc {
+    padding: 5px 10px;
+    background: #fff;
+    margin: 5px 0;
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    cursor: grab;
+}
+
+.list-group-item-action {
+    background-color: white;
+}
+
+.form-control.dropzone {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+pre .token {
+    display: inline-block;
+    background: #fcc;
+    padding: 0 5px;
+    border-radius: 4px;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    border-top: 5px solid yellowgreen;
+    bottom: 0px;
+    left: 0px;
+    background-color: #e9e9e9;
+}
+
+footer .con {
+    font-size: 1em;
+    text-align: center;
+    color: #424242;
+}
+
+img.banner {
+    border-top: 5px solid yellowgreen;
+    border-bottom: 5px solid yellowgreen;
+}
+
+#logo {
+    height: 60px;
+    background-color: #3299bb;
+}
+
+#logo h1 {
+    margin: 10px;
+    color: #e9e9e9;
+}
+
+#del {
+    font-size: 0.45em;
+}
