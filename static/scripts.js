@@ -25,13 +25,6 @@ $(document).ready(function() {
 
     $(".delete").bind("click", deleteToken);
     $("#ref_button").bind("click", refresh);
-    $("#exec_button").bind("click", function() {
-        exec_Logic.call(this, "exec_rule");
-    });
-    $("#save_button").bind("click", function() {
-        exec_Logic.call(this, "save_rule");
-    });
-
 
 });
 
@@ -39,12 +32,11 @@ function deleteToken() {
     event.preventDefault();
     $(this).parent().remove();
     $(".my_result").empty();
-    //if ($('.form-control.dropzone').is(':empty')) drop_zone = [];
-}
 
-function refresh() {
-    $(".token").remove();
-    $(".my_result").empty();
-    $("#flash_msg").empty();
-    $("#mod_idx").val("");
-}
+
+    function refresh() {
+        $(".token").remove();
+        $(".my_result").empty();
+        $("#flash_msg").empty();
+        $("#mod_idx").val("");
+    }
