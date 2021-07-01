@@ -36,7 +36,5 @@ function deleteToken() {
 
     function refresh() {
         $(".token").remove();
-        $(".my_result").empty();
-        $("#flash_msg").empty();
-        $("#mod_idx").val("");
+
     }
